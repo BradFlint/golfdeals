@@ -13,18 +13,19 @@
  *= require_tree .
  *= require_self
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body{
  	background: image-url("golfcourse.jpg");
  	background-size: auto;
  	background-repeat: no-repeat;
- 	font-family: monospace!important;
+ 	font-family: raleway!important;
  }
 
 header{
  	width: 100%;
  	height: 70px;
- 	background-color: gray;
+ 	background-color: #CCCDCE;
  	color: white;
  	position: fixed;
     top: 0px;
@@ -39,6 +40,7 @@ header{
  #name{
  	display: inline;
  	margin-top: 1;
+ 	margin-left: 5%;
  }
 
  .homebtns{
