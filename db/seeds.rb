@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Course.create(email: davis@gmail.com, address: "246 Nichols Park Rd", city: "Fruit Heights", state: "Utah", zip: "84037", name: "Davis Park Golf Course", pro_first_name: "Brad", pro_last_name: "Stone", phone: "801-544-1555", encrypted_password: "123456" )
+
+Player.create(first_name: "Brad", last_name: "Flint", address: "400 N 310 E", city: "Salt Lake City", state: "Utah", zip: "84132", email: "brad@gmail.com", encrypted_password: "123456" )
