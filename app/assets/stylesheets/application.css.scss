@@ -17,7 +17,7 @@
 
 body{
  	background: image-url("golfball.jpg");
- 	background-size: auto;
+ 	background-size: cover;
  	background-repeat: no-repeat;
  	font-family: raleway!important;
  }
@@ -33,7 +33,7 @@ header{
  }
 
  img{
- 	height: 120px;
+ 	height: 100%;
  	width: auto;
  }
 
