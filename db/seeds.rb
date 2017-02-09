@@ -7,7 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Course.create(email: "davis@gmail.com", address: "246 Nichols Park Rd", city: "Fruit Heights", state: "Utah", zip: "84037", name: "Davis Park Golf Course", pro_first_name: "Brad", pro_last_name: "Stone", phone: "801-544-1555", password: "123456" )
+Course.create(email: "valleyview@gmail.com", address: "312 Valley View Dr", city: "Layton", state: "Utah", zip: "84040", name: "Valley View Golf Course", pro_first_name: "Ken", pro_last_name: "Pettingil", phone: "801-546-1630", password: "123456" )
 
 Player.create(first_name: "Brad", last_name: "Flint", address: "400 N 310 E", city: "Salt Lake City", state: "Utah", zip: "84132", email: "brad@gmail.com", password: "123456" )
 
 Teetime.create(course_id: "1", cost: "10", starttime: "11:00am", endtime: "2:00pm", holes: "9" )
+Teetime.create(course_id: "1", cost: "12", starttime: "1:00pm", endtime: "4:00pm", holes: "9" )
+Teetime.create(course_id: "1", cost: "10", starttime: "7:00am", endtime: "12:00pm", holes: "9" )
+Teetime.create(course_id: "2", cost: "22", starttime: "2:00pm", endtime: "4:00pm", holes: "18" )
