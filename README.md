@@ -1,25 +1,18 @@
-# README
+This website is designed to be used by both a golf course as well as players. A golf course is able to log into the site and list specific dates and times where they offer a discount on their normal greens fees. The course can edit and delete their listings. A player can log into the site and view all of the discounts that golf courses are offering.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Ruby version 2.3.3
 
-* Ruby version
+Devise was used to create the databases
 
-* System dependencies
+To set up the website: 
 
-* Configuration
+1. Migrate
+	`rails db:migrate` 
+2. Generate Seeds
+	`rails db:seed`
+3. Run
+	`rails s`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# golfdeals
+player log in: brad@gmail.com password: 123456
+golf course log in: davis@gmail.com password: 123456
